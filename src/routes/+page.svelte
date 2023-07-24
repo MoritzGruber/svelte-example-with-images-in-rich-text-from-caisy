@@ -18,17 +18,19 @@
 			</picture>
 		</span>
 
-		to your new<br />SvelteKit app
-	</h1>
 
 	<a href="/blog/my-first-article"> a link to our first blog page</a>
+	<br>
+	<br>
 	<a href="/blog/my-article-with-images"> example with a rich-text that has images</a>
+	</h1>
+
 
 	<h2>
-		try editing <strong>src/routes/+page.svelte</strong>
+		try editing <strong>src/routes/blog/[slug]/+page.svelte</strong>
 	</h2>
 
-	<Counter />
+
 </section>
 
 <style>
